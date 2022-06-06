@@ -10,9 +10,6 @@ To Do list
 - CSS
 - Javascript
 
-
-
-
 ### Install
 
 ### Usage
@@ -21,14 +18,11 @@ To Do list
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Abdo**
 
-- GitHub: [@Abdo9826](https://github.com/Abdo9826)
-
+- GitHub: [@Abdo9826](file:///C:/Users/dell/Desktop/New-todolist/index.html#)
 
 ## 🤝 Contributing
 

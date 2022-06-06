@@ -1,4 +1,3 @@
-import _ from 'lodash';
 const description = document.querySelector('.text');
 const enter = document.querySelector('.enter');
 const list = document.querySelector('.list');
@@ -42,10 +41,10 @@ document.body.addEventListener('click', (e) => {
   } else if (e.target.tagName === 'INPUT' && e.target.type === 'checkbox') {
     if (e.target.checked === true) {
       const li = e.target.parentElement;
-      li.classList.add('line');
       const selectedindex = e.target.id;
       tasks[Number(selectedindex)].completed = true;
       localStorage.setItem('tasks', JSON.stringify(tasks));
+      li.classList.add('line');
     } else {
       const li = e.target.parentElement;
       const selectedindex = e.target.id;
